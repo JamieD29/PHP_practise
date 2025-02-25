@@ -26,6 +26,6 @@ function is_password_wrong(string $pwd, string $hashedPwd){
     }
 }
 
-function login_user($pdo, $username, $pwd){
-    get_user($pdo, $username, $pwd);
+function login_user($pdo, $username){
+    get_user($pdo, $username);
 }
